@@ -18,7 +18,7 @@ class digitalsterne_gtm
     {
         add_filter('admin_init', array(__CLASS__, 'register_fields'));
         add_action('wp_head', array(__CLASS__, 'print_tag'));
-        add_action('wp_body_open', array(__CLASS__, 'print_noscript_tag'));
+        add_action('wp_ w body_open', array(__CLASS__, 'print_noscript_tag'));
         add_action('body_top', array(__CLASS__, 'print_noscript_tag'));
         add_action('wp_footer', array(__CLASS__, 'print_noscript_tag'));
     }
